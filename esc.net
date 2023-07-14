@@ -1,0 +1,295 @@
+( { EESchema Netlist Version 1.1 created  02/12/21 17:42:24 }
+ ( /603444E2 Package_TO_SOT_SMD:SOT-223-3_TabPin2  U3 AMS1117-5.0
+  (    1 Earth )
+  (    2 +5V )
+  (    3 VDD )
+ )
+ ( /60374893 $noname  J5 Conn_01x01_Male
+  (    1 +5V )
+ )
+ ( /60375CB3 $noname  J6 Conn_01x01_Male
+  (    1 Earth )
+ )
+ ( /6037F59B $noname  J3 Conn_01x01_Male
+  (    1 VDD )
+ )
+ ( /60391240 $noname  J4 Conn_01x01_Male
+  (    1 Earth )
+ )
+ ( /603CF77E $noname  J14 Conn_01x01_Male
+  (    1 ? )
+ )
+ ( /60408D14 $noname  J16 Conn_01x01_Male
+  (    1 ? )
+ )
+ ( /6040F01D $noname  R9 R
+  (    1 Net-(R10-Pad2) )
+  (    2 ? )
+ )
+ ( /60421AA3 $noname  J15 Conn_01x01_Male
+  (    1 ? )
+ )
+ ( /60428305 $noname  R10 R
+  (    1 Earth )
+  (    2 Net-(R10-Pad2) )
+ )
+ ( /604355C2 $noname  J11 Conn_01x05_Male
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+ )
+ ( /604382CD $noname  J8 Conn_01x05_Male
+  (    1 Net-(J2-Pad1) )
+  (    2 Net-(J2-Pad2) )
+  (    3 Net-(J2-Pad3) )
+  (    4 Net-(J2-Pad4) )
+  (    5 Net-(J2-Pad5) )
+ )
+ ( /604391D6 $noname  J9 Conn_01x05_Male
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+ )
+ ( /60439B0B $noname  J10 Conn_01x05_Male
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+ )
+ ( /6043A0CB $noname  J12 Conn_01x05_Male
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+ )
+ ( /6043AA1B $noname  J13 Conn_01x05_Male
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+ )
+ ( /60270C99 Module:Arduino_Nano  A1 Arduino_Nano_Every
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 Net-(A1-Pad29) )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+  (   21 ? )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 Net-(A1-Pad29) )
+  (   30 ? )
+ )
+ ( /602AD9BB SOIC127P600X175-8N  IC1 IR2301STRPBF
+  (    1 VDD )
+  (    2 ? )
+  (    3 ? )
+  (    4 Earth )
+  (    5 Net-(IC1-Pad5) )
+  (    6 Net-(C3-Pad2) )
+  (    7 Net-(IC1-Pad7) )
+  (    8 Net-(C3-Pad1) )
+ )
+ ( /602B4CF5 $noname  C1 C
+  (    1 VDD )
+  (    2 Earth )
+ )
+ ( /602B609D $noname  C2 C
+  (    1 VDD )
+  (    2 Earth )
+ )
+ ( /602C410D Package_TO_SOT_THT:TO-220-3_Vertical  Q1 IRF3205
+  (    1 Net-(Q1-Pad1) )
+  (    2 VDD )
+  (    3 Net-(C3-Pad2) )
+ )
+ ( /602C5D2C Package_TO_SOT_THT:TO-220-3_Vertical  Q2 IRF3205
+  (    1 Net-(Q2-Pad1) )
+  (    2 Net-(C3-Pad2) )
+  (    3 Earth )
+ )
+ ( /602D191E $noname  J2 Conn_01x05_Male
+  (    1 Net-(J2-Pad1) )
+  (    2 Net-(J2-Pad2) )
+  (    3 Net-(J2-Pad3) )
+  (    4 Net-(J2-Pad4) )
+  (    5 Net-(J2-Pad5) )
+ )
+ ( /602D1E7B $noname  J1 Conn_01x01_Male
+  (    1 Net-(C3-Pad2) )
+ )
+ ( /602D836B $noname  C4 C
+  (    1 Earth )
+  (    2 VDD )
+ )
+ ( /602DD378 Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal  D1 1N4001
+  (    1 Net-(C3-Pad1) )
+  (    2 VDD )
+ )
+ ( /603EFCC1 RESC3216X60N  R1 CRCW12061K00JNTA
+  (    1 Net-(IC1-Pad7) )
+  (    2 Net-(Q1-Pad1) )
+ )
+ ( /603FF17A RESC3216X60N  R2 CRCW12061K00JNTA
+  (    1 Net-(IC1-Pad5) )
+  (    2 Net-(Q2-Pad1) )
+ )
+ ( /604082F2 CAPC3215X163N  C3 1206
+  (    1 Net-(C3-Pad1) )
+  (    2 Net-(C3-Pad2) )
+ )
+ ( /604286BB SOIC127P600X175-8N  IC2 IR2301STRPBF
+  (    1 VDD )
+  (    2 ? )
+  (    3 ? )
+  (    4 Earth )
+  (    5 Net-(IC2-Pad5) )
+  (    6 Net-(C7-Pad2) )
+  (    7 Net-(IC2-Pad7) )
+  (    8 Net-(C7-Pad1) )
+ )
+ ( /604286C5 $noname  C5 C
+  (    1 VDD )
+  (    2 Earth )
+ )
+ ( /604286CB $noname  C6 C
+  (    1 VDD )
+  (    2 Earth )
+ )
+ ( /604286E5 Package_TO_SOT_THT:TO-220-3_Vertical  Q3 IRF3205
+  (    1 Net-(Q3-Pad1) )
+  (    2 VDD )
+  (    3 Net-(C7-Pad2) )
+ )
+ ( /604286EB Package_TO_SOT_THT:TO-220-3_Vertical  Q4 IRF3205
+  (    1 Net-(Q4-Pad1) )
+  (    2 Net-(C7-Pad2) )
+  (    3 Earth )
+ )
+ ( /604286F9 $noname  J7 Conn_01x01_Male
+  (    1 Net-(C7-Pad2) )
+ )
+ ( /6042870B $noname  C8 C
+  (    1 Earth )
+  (    2 VDD )
+ )
+ ( /6042871C Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal  D2 1N4001
+  (    1 Net-(C7-Pad1) )
+  (    2 VDD )
+ )
+ ( /60428743 RESC3216X60N  R3 CRCW12061K00JNTA
+  (    1 Net-(IC2-Pad7) )
+  (    2 Net-(Q3-Pad1) )
+ )
+ ( /60428752 RESC3216X60N  R4 CRCW12061K00JNTA
+  (    1 Net-(IC2-Pad5) )
+  (    2 Net-(Q4-Pad1) )
+ )
+ ( /60428761 CAPC3215X163N  C7 1206
+  (    1 Net-(C7-Pad1) )
+  (    2 Net-(C7-Pad2) )
+ )
+ ( /604317AF SOIC127P600X175-8N  IC3 IR2301STRPBF
+  (    1 VDD )
+  (    2 ? )
+  (    3 ? )
+  (    4 Earth )
+  (    5 Net-(IC3-Pad5) )
+  (    6 Net-(C13-Pad2) )
+  (    7 Net-(IC3-Pad7) )
+  (    8 Net-(C13-Pad1) )
+ )
+ ( /604317B9 $noname  C11 C
+  (    1 VDD )
+  (    2 Earth )
+ )
+ ( /604317BF $noname  C12 C
+  (    1 VDD )
+  (    2 Earth )
+ )
+ ( /604317D9 Package_TO_SOT_THT:TO-220-3_Vertical  Q5 IRF3205
+  (    1 Net-(Q5-Pad1) )
+  (    2 VDD )
+  (    3 Net-(C13-Pad2) )
+ )
+ ( /604317DF Package_TO_SOT_THT:TO-220-3_Vertical  Q6 IRF3205
+  (    1 Net-(Q6-Pad1) )
+  (    2 Net-(C13-Pad2) )
+  (    3 Earth )
+ )
+ ( /604317ED $noname  J17 Conn_01x01_Male
+  (    1 Net-(C13-Pad2) )
+ )
+ ( /604317FF $noname  C14 C
+  (    1 Earth )
+  (    2 VDD )
+ )
+ ( /60431810 Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal  D3 1N4001
+  (    1 Net-(C13-Pad1) )
+  (    2 VDD )
+ )
+ ( /60431837 RESC3216X60N  R5 CRCW12061K00JNTA
+  (    1 Net-(IC3-Pad7) )
+  (    2 Net-(Q5-Pad1) )
+ )
+ ( /60431846 RESC3216X60N  R6 CRCW12061K00JNTA
+  (    1 Net-(IC3-Pad5) )
+  (    2 Net-(Q6-Pad1) )
+ )
+ ( /60431855 CAPC3215X163N  C13 1206
+  (    1 Net-(C13-Pad1) )
+  (    2 Net-(C13-Pad2) )
+ )
+ ( /6043C513 CAPC3215X163N  C10 1206
+  (    1 +5V )
+  (    2 Earth )
+ )
+ ( /6043E3C8 CAPC3215X163N  C9 1206
+  (    1 VDD )
+  (    2 Earth )
+ )
+ ( /6046A376 RESC3216X60N  R7 CRCW12061K00JNTA
+  (    1 ? )
+  (    2 Net-(R7-Pad2) )
+ )
+ ( /6046E34D RESC3216X60N  R8 CRCW12061K00JNTA
+  (    1 Net-(R7-Pad2) )
+  (    2 Earth )
+ )
+ ( /6047B4FA RESC3216X60N  R11 CRCW12061K00JNTA
+  (    1 ? )
+  (    2 Net-(R11-Pad2) )
+ )
+ ( /60483C3D RESC3216X60N  R12 CRCW12061K00JNTA
+  (    1 Earth )
+  (    2 Net-(R11-Pad2) )
+ )
+)
+*
